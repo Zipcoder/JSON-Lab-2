@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <link href="./css/style.css" type="text/css" rel="stylesheet">
     <title>Import Local JSON Data | Zipcode Wilmington</title>
+    <script type="text/javascript" src="data.js"></script>
+
 </head>
-<body>
+<body onload="request.onreadystatechange()">
     <header class="main-header group">
         <div class="title"><h1>Zipcode Wilmington<br>Javascript Lab - Fall 2015</h1></div>
         <div class="lesson-link"><img src="./images/logos/js_logo.png" alt="Javascript"/></div>
@@ -36,7 +38,7 @@
 
     <section>
     	<h1>Movie Information</h1>
-    	<div id="result"></div>
+    	<div id='result'></div>
     </section>
 </body>
 </html>
