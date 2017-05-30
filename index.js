@@ -14,12 +14,12 @@ request.onreadystatechange = function(){
 			var data = data_json[i];
 
 			console.log(data_json);
-			output = "<h3>" + data["movie title"] + "</h3>";
-			output += "<p>" + data["release year"] + "</p>";
-      output += "<p>" + data["production company"] + "</p>";
+			output = "<h3>" + data["view", "attribution"] + "</h3>";
+			output += "<p>" + data["view", "name"] + "</p>";
+      output += "<p>" + data["i"].production_company + "</p>";
 		}
 
-		document.getElementById("result").innerHTML += output
+		document.getElementById("result").innerHTML"<br />" += output
 
 	}
 }
