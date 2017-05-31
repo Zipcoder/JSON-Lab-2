@@ -3,7 +3,6 @@ var output;
 var data_json;
 
 request.open('GET', 'https://data.sfgov.org/api/views/yitu-d5am/rows.json?accessType=DOWNLOAD');
-//request.open('GET', 'https://raw.githubusercontent.com/mheadd/de-plow-history/master/data/196740.json');
 
 request.onreadystatechange = function(){
 
